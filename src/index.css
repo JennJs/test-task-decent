@@ -1,0 +1,19 @@
+:root {
+  --h1Color: #000023
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100vh;
+}
+
+h1 {
+  color: var(--h1Color);
+}
